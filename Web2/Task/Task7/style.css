@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/* 顶部 */
+.header-wrapper{
+	height: 20px;
+	background-color: #ccc;
+}
+.header{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.header img{
+	margin-top: 2px;
+	float: left;
+}
+.tips-wrapper{
+	width: 970px;
+	height: 20px;
+	position: absolute;
+	left: 30px;
+	overflow: hidden;
+}
+.tips{
+	width: 310px;
+	font-size: 12px;
+	color: #f00;
+	display: inline-block;
+	position: absolute;
+	top: 2px;
+	right: -310px;
+}
+/* 轮播图 */
+.box{
+	width: 1200px;
+	height: 382px;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: hidden;
+	position: relative;
+}
+.slider{
+	width: 8400px;
+	height: 382px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	float: left;
+	overflow: hidden;
+}
+
+
+
+
+
+/* 左右按钮 */
+.box:hover .both{
+	display: inline-block;
+}
+.both{
+	font-size: 26px;
+	color: #fff;
+	background-color: #c50;
+	opacity:0.7;
+	filter: alpha(opacity=70);
+	padding: 12px 5px;
+	position: absolute;
+	top: 170px;
+	display: none;
+}
+#left{
+	left: 35px;
+}
+#right{
+	right: 35px;
+}
+/* 下方按钮 */
+.number-wrapper{
+	width: 240px;
+	height: 30px;
+	position: absolute;
+	left: 480px;
+	top: 340px;
+}
+.number{
+	display: inline-block;
+	padding: 1px 7px;
+	border-radius: 50%;
+	background-color: #ddd;
+	margin: 0px 8px;
+}
+
+
+
+
+

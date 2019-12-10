@@ -119,7 +119,7 @@ function numberUnChecked(num){
 //点击下方按钮进行图片切换
 function locate(i){
 	if(i!=index-1){
-		if(!isMoving){a
+		if(!isMoving){
 			isMoving=true;
 			numberUnChecked(index-1);
 			numberChecked(i);

@@ -42,7 +42,6 @@ number[2].setAttribute("onclick","locate(2)");
 number[3].setAttribute("onclick","locate(3)");
 number[4].setAttribute("onclick","locate(4)");
 
-
 //函数封装
 
 //匀速移动
